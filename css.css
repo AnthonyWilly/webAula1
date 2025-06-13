@@ -1,0 +1,132 @@
+.principal{
+    margin-left: 5%;
+    margin-right:5%;
+    margin-bottom:2%;
+}
+
+.header-empresa {
+    background-color: #ADD8E6;
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header-empresa p {
+    margin: 0;
+    font-weight: bold;
+}
+
+.conteudo {
+    padding: 0; 
+}
+
+footer {
+    background-color: #FFA07A;
+    padding: 2% 2%;
+    text-align: center;
+    margin-top: 0;  
+}
+footer p {
+    margin: 0;
+    font-size: 0.9em;
+}
+
+h1 {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size: 2.2em;
+}
+
+h2 {
+    margin-top: 3%;
+    margin-bottom: 1.5%;
+    font-size: 1.6em;
+}
+
+p {
+    margin-bottom: 1.5%;
+    line-height: 1.6;
+}
+
+.header-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+.header-nav ul li a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.conteudo-principal-e-sidebar {
+    display: flex;
+    align-items: stretch;
+    gap: 5%;
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 2%; 
+    padding-right: 0; 
+}
+
+.conteudo-texto {
+    flex: 3;
+}
+.conteudo-texto a {
+    color: #0000FF; 
+    text-decoration: none;
+}
+
+.sidebar {
+    flex: 1;
+    background-color: #90EE90;
+    padding: 2%;
+}
+
+.sidebar h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 1.4em;
+}
+
+.sidebar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar ul li a {
+    color: black; 
+    text-decoration: none; 
+}
+
+
+.sidebar-categorias ul li {
+    margin-bottom: 8px;
+}
+.pagination {
+    margin-top: 3%; 
+    text-align: center; 
+}
+
+.pagination ul {
+    list-style: none; 
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    justify-content: center; 
+    gap: 15px; 
+}
+
+.pagination ul li a {
+    font-weight: bold; 
+    padding: 5px 10px; 
+    
+}
